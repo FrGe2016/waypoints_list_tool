@@ -1,0 +1,19 @@
+<launch>
+  <env name="ROSCONSOLE_FORMAT" value="[${severity}][${thread}][${node}/${function}:${line}]: ${message}"/>
+
+ <arg name="addpose_topic" default="/initialpose"/>
+ <arg name="posearray_topic" default="/waypoints"/>
+
+
+  <node pkg="waypoints_list_tool" type="waypoints_list_tool" name="waypoints_list_tool" output="screen" clear_params="true">
+    <param name="goal_frame_id" value="map"/>
+    <param name="addpose_topic" value="$(arg addpose_topic)"/>
+    <param name="posearray_topic" value="$(arg posearray_topic)"/>
+  </node>
+
+    <!-- Publish static transform from base_footprint to base_link -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_footprint_to_base_link" args="0 0 0.0 0 0 0 /base_link  /base_footprint "/>
+
+
+</launch>
+
