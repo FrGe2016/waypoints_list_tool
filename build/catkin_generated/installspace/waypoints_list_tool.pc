@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: waypoints_list_tool
+Description: Description of waypoints_list_tool
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib -lwaypoints_list_tool
+Requires: actionlib geometry_msgs move_base_msgs rospy smach std_msgs

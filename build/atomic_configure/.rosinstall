@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/francois/Test_catkin_ws_fg3/src/waypoints_list_tool/build/devel/setup.sh

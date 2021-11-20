@@ -1,0 +1,7 @@
+set(waypoints_list_tool_SETUP_PY_SETUP_MODULE "distutils.core")
+set(waypoints_list_tool_SETUP_PY_VERSION "0.0.1")
+set(waypoints_list_tool_SETUP_PY_SCRIPTS "")
+set(waypoints_list_tool_SETUP_PY_PACKAGES "waypoints_list_tool")
+set(waypoints_list_tool_SETUP_PY_PACKAGE_DIRS "src/waypoints_list_tool")
+set(waypoints_list_tool_SETUP_PY_MODULES "")
+set(waypoints_list_tool_SETUP_PY_MODULE_DIRS "")
