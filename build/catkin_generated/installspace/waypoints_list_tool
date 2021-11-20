@@ -1,6 +1,0 @@
-#!/usr/bin/env python2
-
-from waypoints_list_tool import waypoints_list_tool
-
-if __name__ == '__main__':
-    waypoints_list_tool.main()
