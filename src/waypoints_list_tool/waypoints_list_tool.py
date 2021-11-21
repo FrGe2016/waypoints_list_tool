@@ -285,6 +285,7 @@ def main():
 		path_manager.print_menu()
 		menu_choice=raw_input("Enter menu choice : ")
 		if menu_choice=="1":
+			#test
 			path_manager.receive_poses_from_rviz()
 		if menu_choice=="2":		
 			path_manager.Read_Waypoints_csv()
